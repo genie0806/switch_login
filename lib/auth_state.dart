@@ -42,8 +42,8 @@ class _AuthStateState extends State<AuthState>
                     child: RichText(
                       text: TextSpan(
                           text: (selectedForm == 0)
-                              ? 'Already have an account?'
-                              : "Don't have an account",
+                              ? 'Already have an account? '
+                              : "Don't have an account ",
                           style: const TextStyle(color: Colors.green),
                           children: [
                             TextSpan(
